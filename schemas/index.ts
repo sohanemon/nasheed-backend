@@ -1,3 +1,3 @@
-import test from './test'
+import songs from './songs'
 
-export const schemaTypes = [test]
+export const schemaTypes = [songs]
