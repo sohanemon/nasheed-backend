@@ -15,6 +15,14 @@ export default defineType({
       title: 'Artist',
       type: 'string',
     }),
+     defineField({
+      name: 'artistImage',
+      title: 'Artist Image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    }),
     defineField({
       name: 'album',
       title: 'Album',
